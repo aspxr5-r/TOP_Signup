@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.side{
+    background-image: url("Vinland.jpg");
+    height: 100%;
+    width: 20%;
+}
+.odin{
+    width: 200px;
+    height: 50px;
+}
