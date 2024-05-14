@@ -1,14 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
 html, body{
     display: flex;
     flex-direction: row;
     height: 100%;
-    margin: 0;
-    margin-right: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 .side{
     background-image: url("Vinland.jpg");
     height: 100%;
-    width: 80%;
+    width: 45%;
     background-size: cover;
 }
 .odin{
@@ -34,9 +44,40 @@ html, body{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 40px;
 }
-.form{
-    display: flex;
-    flex-direction: column;
+form{
+    height: 20%;
+    display: border;
     width: 100%;
+}
+.name{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+}
+.text{
+    height: 40%;
+}
+.submit{
+    height: 40%;
+    margin-left: 40px;
+    background-color: lightgray;
+
+}
+.create_account{
+    background-color: #596d48;
+    margin-bottom: 20px;
+    border:hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.title{
+    font-family: Norse;
+    font-size: 60px;
 }
