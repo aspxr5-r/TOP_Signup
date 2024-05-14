@@ -9,35 +9,44 @@
 <body>
     
     <div class="side">
-        <div class="image">
-            <div class="logo">
-                <img class="odin" src="odin-lined.png">
+        <div class="background">
+          
+            <img class="odin" src="odin-lined.png">
                 <h1 class="title">ODIN</h1>
+        
             </div>
-        </div>
     </div>
-
+  
     <div class="main">
-        <h3 class="subtext">Some Text!</h3>
-        <form action="">
-            <label for="firstname">First Name</label>
-            <input required type="name" name="firstname" id="firstname">
-            <label for="lastname">Last Name</label>
-            <input required type="text" name="lastname" id="lastname">
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Phone Number</label>
-            <input type="number" name="phone" id="phone">
-            <label for="pwd">Password</label>
-            <input required type="password" id="pwd">
-            <label for="confpwd">Confirm Password</label>
-            <input required type="password" name="pwd" id="confpwd">
-
+        <div class="text">
+            <h3 class="subtext">Some Text!</h3>
+        </div>
+        <form action="" class="form">
+            <fieldset class="Name">
+                <label for="firstname">First Name</label>
+                <input required type="name" name="firstname" id="firstname">
+                <label for="lastname">Last Name</label>
+                <input required type="text" name="lastname" id="lastname">
+            </fieldset>
+            <fieldset class="contact">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone">
+            </fieldset>
+            
+            <fieldset class="pwd">
+                <label for="pwd">Password</label>
+                <input required type="password" id="pwd">
+                <label for="confpwd">Confirm Password</label>
+                <input required type="password" name="pwd" id="confpwd">
+            </fieldset>
         </form>
-    </div>
-    <div class="Submit">
-        <button class="create_account" type="submit">Create Account</button>
+        <div class="Submit">
+            <button class="create_account" type="submit">Create Account</button>
         <h3 class="login">Already have an account? <a href="" target="_blank">Log in</a></h3>
     </div>
+    </div>
+    
 </body>
 </html>
